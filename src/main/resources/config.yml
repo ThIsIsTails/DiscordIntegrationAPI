@@ -1,0 +1,11 @@
+token: set token here
+server-name: MilPy SMP | DEBUG
+
+utils:
+  shutdown-on-error: true
+
+logs:
+  public-channel: id # Players
+  private-channel: id # Moderators
+
+  #executor-prefix: !exec # !exec ban Player, !exec discord reconnect and etc
