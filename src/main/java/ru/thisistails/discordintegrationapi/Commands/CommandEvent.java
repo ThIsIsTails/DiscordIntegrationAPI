@@ -30,7 +30,7 @@ public class CommandEvent extends ListenerAdapter {
 
         String[] command = event.getMessage().getContentRaw().split(" ");
 
-        //if(!command[0].startsWith("!")) return;
+        if(!command[0].startsWith("!")) return;
 
         if(command[0].equals("!server")) {
 
@@ -47,7 +47,7 @@ public class CommandEvent extends ListenerAdapter {
                     .addField("Игороков", pl.getServer().getOnlinePlayers().size() + " из " + pl.getServer().getMaxPlayers(), false)
                     .addField("Uptime (Время работы)", hours + "h:" + minutes + "m:" + seconds + "s", false);
 
-            event.getMessage().replyEmbeds(embed.setFooter("Обработка заняла" + (System.currentTimeMillis() - start) + "ms").build()).queue();
+            event.getMessage().replyEmbeds(embed.setFooter("Обработка заняла " + (System.currentTimeMillis() - start) + "ms").build()).queue();
         }
     }
 

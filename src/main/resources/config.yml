@@ -3,9 +3,13 @@ server-name: MilPy SMP | DEBUG
 
 utils:
   shutdown-on-error: true
+  on-ready:
+    enabled: true
+    channel: all # all - public and private log channels also u can set id of channel
 
 logs:
   public-channel: id # Players
   private-channel: id # Moderators
+  enable-private-logs: true
 
   #executor-prefix: !exec # !exec ban Player, !exec discord reconnect and etc

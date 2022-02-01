@@ -33,6 +33,6 @@ public final class DiscordIntegrationAPI extends JavaPlugin {
         getLogger().info("Shutdown bot...");
         try {
             loader.bot.shutdown();
-        } catch(Exception ignore) {};
+        } catch(Exception e) {e.printStackTrace();};
     }
 }
