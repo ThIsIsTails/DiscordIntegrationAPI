@@ -1,5 +1,5 @@
-token: set token here
-server-name: MilPy SMP | DEBUG
+token: token
+server-name: ServerName
 
 utils:
   shutdown-on-error: true

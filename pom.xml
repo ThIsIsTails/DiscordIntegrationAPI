@@ -6,7 +6,7 @@
 
     <groupId>ru.thisistails</groupId>
     <artifactId>DiscordIntegrationAPI</artifactId>
-    <version>2.0-REALESE</version>
+    <version>3.1-REALESE</version>
     <packaging>jar</packaging>
 
     <name>DiscordIntegrationAPI</name>
@@ -68,7 +68,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.18.1-R0.1-SNAPSHOT</version>
+            <version>1.16.5-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>

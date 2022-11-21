@@ -1,7 +1,7 @@
 name: DiscordIntegrationAPI
 version: '${project.version}'
 main: ru.thisistails.discordintegrationapi.DiscordIntegrationAPI
-api-version: 1.18
+api-version: 1.16
 prefix: DiscordAPI
-authors: [ ThIsIsTails ]
+author: ThIsIsTails for Enikeian
 description: Simple discord API for your plugins or servers.

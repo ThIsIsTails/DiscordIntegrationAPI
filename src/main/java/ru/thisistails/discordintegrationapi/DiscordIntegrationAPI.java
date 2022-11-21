@@ -19,10 +19,10 @@ public final class DiscordIntegrationAPI extends JavaPlugin {
             config.mkdir();
             //saveResource(getDataFolder() + "/config.yml", false);
             saveDefaultConfig();
-            getLogger().info("Config created");
+            getLogger().info("Config created, go and edit files first.");
         }
 
-        getLogger().info("Loading bot...");
+        getLogger().info("Creating bot instance...");
         loader = new BotLoader(this);
         loader.load();
     }
